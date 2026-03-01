@@ -1,0 +1,88 @@
+.tabla-habitaciones {
+    width: 100%;
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+.tabla-habitaciones td {
+    width: 33.33%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    padding-bottom: 60px;
+}
+.tabla-habitaciones img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+.btn-detalles {
+    background-color: rgb(73, 1, 73);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.titulo-seccion {
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.contenedor-filtros {
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid #eee;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-filtros label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+}
+.contenedor-filtros input[type="text"],
+.contenedor-filtros input[type="date"],
+.contenedor-filtros select {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    font-size: 1rem;
+}
+.contenedor-filtros input[type="date"] {
+    font-family: inherit;
+    color: #555;
+    cursor: pointer;
+}
+.contenedor-filtros input[type="submit"] {
+    background-color: rgb(73, 1, 73);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+.contenedor-filtros input[type="submit"]:hover {
+    background-color: rgb(50, 0, 50);
+}
