@@ -83,14 +83,13 @@
     font-size: 1rem;
     transition: background-color 0.3s;
 }
+.contenedor-filtros input[type="submit"]:hover {
+    background-color: rgb(50, 0, 50);
+}
 .btn-agregar {
     margin: 30px auto;
     width: 200px;
     padding: 10px 20px;
     background-color: rgb(73, 1, 73);
     border-radius: 10px;
-}
-.contenedor-filtros input[type="submit"]:hover {
-    background-color: rgb(50, 0, 50);
-
 }
